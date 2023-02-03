@@ -14,6 +14,8 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 4-2. Save private Key 버튼을 선택해 ppk 파일을 다운로드받는다.
 
+4-3. Generate를 하지 않고 로드된 private Key를 다운로드 받는다.
+
 5. PuTTY를 열고 Category - Connection - SSH - Auth 탭에서 Private key file을 선택 후 실행한다.
 
 6. 참고자료 : AWS 공식문서
