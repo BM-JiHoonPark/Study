@@ -48,6 +48,9 @@
 
     ```
     docker run -ti --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80 local/r8-systemd
+    
+    Failed to allocate manager object: Read-only file system 에러 발생 시
+    docker run -ti --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host -p 80:80 local/r8-systemd
     ```
 
 7. 컨테이너 접속
